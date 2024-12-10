@@ -1,3 +1,44 @@
+/*General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: left;
+    padding-top: 50px;
+}
+
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+/*Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#open-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#close-button {
+    background-color: #f44336;
+    color: white;
+}
+
+/*Image container and resizing */
 .image {
-    display: none;
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    margin-top: 10px;
 }
